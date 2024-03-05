@@ -8,7 +8,7 @@ Our printf should behave like the printf from libc (see man). Here we learn abou
 
 ## Installation
 ```javascript
-g@it clone https://github.com/Mafranco31/ftprintf.git ft_printf
+git clone https://github.com/Mafranco31/ftprintf.git ft_printf
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     // Select all code blocks
@@ -42,3 +42,4 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 </script>
+```
