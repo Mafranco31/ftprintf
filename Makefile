@@ -6,15 +6,15 @@
 #    By: mafranco <mafranco@student.42barcel>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/27 13:06:34 by mafranco          #+#    #+#              #
-#    Updated: 2023/07/25 12:17:52 by mafranco         ###   ########.fr        #
+#    Updated: 2024/03/05 11:58:48 by mafranco         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	libftprintf.a
 
-LIB = ft_printf.h
+LIB = inc/ft_printf.h
 
-SRC	=	ft_printf.c ft_pfptr.c ft_pfchar.c ft_pfint.c
+SRC	=	src/ft_printf.c src/ft_pfptr.c src/ft_pfchar.c src/ft_pfint.c
 
 CC	=	cc
 

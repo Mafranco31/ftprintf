@@ -1,0 +1,44 @@
+# ft_printf
+
+ft_printf is the second project of 42 cursus. The goal is to create our proper printf function.
+
+## Description
+
+Our printf should behave like the printf from libc (see man). Here we learn about variadic function.
+
+## Installation
+
+git clone https://github.com/Mafranco31/ftprintf.git ft_printf
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    // Select all code blocks
+    var codeBlocks = document.querySelectorAll('pre code');
+
+    codeBlocks.forEach(function (codeBlock) {
+        // Create a button
+        var button = document.createElement('button');
+        button.className = 'copy-button';
+        button.textContent = 'Copy';
+
+        // Append the button to the code block
+        codeBlock.parentNode.insertBefore(button, codeBlock);
+
+        // Set the click event for the button
+        button.addEventListener('click', function () {
+            // Copy the code inside the code block
+            var textArea = document.createElement('textarea');
+            textArea.value = codeBlock.textContent;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            // Change button text to indicate successful copy
+            button.textContent = 'Copied!';
+            setTimeout(function () {
+                button.textContent = 'Copy';
+            }, 2000);
+        });
+    });
+});
+</script>
