@@ -12,7 +12,9 @@ Our printf should behave like the printf from libc (see man). Here we learn abou
 git clone https://github.com/Mafranco31/ftprintf.git ft_printf && cd ft_printf && make
 ```
 
-now you can add the ft_printf.h header in your files and use ft_printf function !
+Now you can add the ft_printf.h header in your files and use ft_printf function !
+
+Don't forget to add "-L./ft_printf -lftprintf" flag while compiling your project (change -L./ft_printf to -L(path to ft_printf))
 
 ## Use
 
@@ -36,3 +38,5 @@ and then you put your variable after the string in the function like this :
 ```c
 ft_printf("My string to print: ‰s\n", "my string");
 ```
+
+And compile with the flag i mentionned in installation !
